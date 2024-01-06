@@ -1,0 +1,33 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  color: #fff;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu-list li {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+}
+
+.menu-list li:hover {
+  background-color: grey;
+}
+
+.search-icon {
+  padding: 12px 24px;
+  font-size: 1rem;
+}
+
+.search-icon:hover {
+  background-color: red;
+}
