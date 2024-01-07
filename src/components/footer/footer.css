@@ -1,0 +1,28 @@
+.footer-container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  color: grey;
+  font-size: 30px;
+}
+
+.social:hover {
+  color: rgb(181, 178, 178);
+}
+
+.footer-heading {
+  color: grey;
+  font-size: 18px;
+}
+
+.footer-heading > p > a {
+  color: grey;
+}
