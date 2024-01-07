@@ -1,0 +1,62 @@
+.booking-section {
+  background-color: #000;
+  color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.booking-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.booking-container > h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 30px;
+  text-align: center;
+}
+.booking-container > p {
+  color: grey;
+  font-style: italic;
+  text-align: center;
+}
+
+.booking-container > ul {
+  width: 100%;
+  list-style: none;
+  color: grey;
+  text-align: left;
+}
+
+.booking-container > ul li {
+  padding: 8px 16px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.sold-out {
+  color: #fff;
+  background-color: #f44336;
+  padding: 4px 8px;
+}
+
+.vacant {
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  padding: 4px 10px;
+}
+
+.vacant-month {
+  display: flex;
+  justify-content: space-between;
+}
+
+.places {
+  width: 100%;
+  display: flex;
+  gap: 1.6rem;
+  margin-left: 2.4rem;
+  margin-top: 2rem;
+}

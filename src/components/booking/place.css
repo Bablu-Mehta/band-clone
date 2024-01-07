@@ -1,0 +1,44 @@
+.place-section {
+  width: 100%;
+}
+
+.place-card {
+  background: #fff;
+  color: black;
+}
+
+.place-card > img {
+  width: 100%;
+}
+
+.place-content {
+  padding: 0 1rem 1rem 0.9rem;
+}
+
+.btn {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #dbd9d9;
+  color: #000;
+  font-size: 1rem;
+}
+
+.place-content > h3 {
+  font-weight: 500;
+}
+
+.available-date {
+  color: grey;
+  font-size: 18px;
+}
+
+.place-description {
+  font-size: 18px;
+  font-weight: 450;
+}
