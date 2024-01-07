@@ -1,15 +1,24 @@
 import React from "react";
 import "./navbar.css";
 import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar-container">
       <ul className="menu-list">
-        <li>Home</li>
-        <li>Band</li>
-        <li>Tour</li>
-        <li>Contact</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/band">Band</Link>
+        </li>
+        <li>
+          <Link to="/tour">Tour</Link>
+        </li>
+        <li>
+          <Link to="/">Contact</Link>
+        </li>
         {/* <li>
          <a href="#">More</a>
          <ul className="dropdown">
