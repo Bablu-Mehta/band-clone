@@ -1,0 +1,33 @@
+.about-container {
+  margin: 8rem auto;
+  max-width: 950px;
+}
+
+.about-content > h1 {
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 4rem;
+  line-height: 1rem;
+  font-weight: 500;
+}
+
+.about-content > h4 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+  color: grey;
+}
+
+.about-content > p {
+  line-height: 1.8rem;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.member-section {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+  margin: 4rem 2rem;
+}

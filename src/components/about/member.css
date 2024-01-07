@@ -1,0 +1,12 @@
+.member-card {
+  width: 33%;
+}
+
+.member-card > img {
+  width: 100%;
+}
+
+.name {
+  text-align: center;
+  font-weight: 400;
+}

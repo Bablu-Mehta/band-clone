@@ -21,6 +21,7 @@
 
 .menu-list li:hover {
   background-color: grey;
+  cursor: pointer;
 }
 
 .search-icon {
