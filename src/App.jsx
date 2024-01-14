@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer.jsx";
 import Hero from "./components/bandRoute/hero/Hero.jsx";
 import Projects from "./components/bandRoute/projects/Projects.jsx";
 import About from "./components/bandRoute/about/About.jsx";
+import Contact from "./components/bandRoute/contact/Contact.jsx";
 
 function App() {
   return (
@@ -20,11 +21,6 @@ function App() {
     //   </Routes>
     //   <Footer />
     // </BrowserRouter>
-    <>
-      <Hero />
-      <Projects />
-      <About />
-    </>
   );
 }
 
