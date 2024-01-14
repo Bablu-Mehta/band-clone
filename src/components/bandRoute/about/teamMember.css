@@ -1,0 +1,39 @@
+.band-about-member-card {
+  margin: 0;
+  width: 24%;
+}
+
+.band-about-member-card > img {
+  width: 100%;
+}
+
+.band-about-member-card > h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 0;
+}
+
+.member-designation {
+  margin: 0;
+  color: grey;
+  font-size: 18px;
+}
+
+.member-description {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.band-about-member-card > button {
+  width: 100%;
+  border: none;
+  background: rgb(237, 230, 230);
+  font-size: 18px;
+  padding: 10px;
+}
+
+.band-about-member-card > button:hover {
+  background: rgb(197, 196, 196);
+  cursor: pointer;
+}
