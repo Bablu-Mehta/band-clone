@@ -1,0 +1,20 @@
+.band-projects-container {
+  width: 100%;
+  /* padding: 0px 10px; */
+  margin: 0;
+}
+
+.band-projects-container > h1 {
+  font-weight: 400;
+  padding: 20px 25px;
+}
+
+.band-projects {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 4px; */
+  row-gap: 8px;
+  align-items: center;
+  justify-content: space-evenly;
+}

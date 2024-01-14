@@ -6,6 +6,7 @@ import Booking from "./components/booking/Booking.jsx";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import Hero from "./components/bandRoute/hero/Hero.jsx";
+import Projects from "./components/bandRoute/projects/Projects.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     // </BrowserRouter>
     <>
       <Hero />
+      <Projects />
     </>
   );
 }

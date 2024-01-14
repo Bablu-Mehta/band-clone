@@ -1,0 +1,20 @@
+.projects-project-container {
+  width: 23%;
+  margin: 0;
+  position: relative;
+}
+.projects-project-container > img {
+  width: 100%;
+}
+
+.projects-project-container > p {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: #000;
+  padding: 10px 14px;
+  font-weight: 400;
+  font-size: 20px;
+}
