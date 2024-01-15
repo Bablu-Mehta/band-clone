@@ -6,18 +6,22 @@ import Booking from "./components/booking/Booking.jsx";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import BandRoute from "./components/bandRoute/BandRoute.jsx";
+import Blog from "./components/tourRoute/Blog.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/band" element={<BandRoute />} />
-        <Route path="/tour" element={<Booking />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Navbar />
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/band" element={<BandRoute />} />
+    //     <Route path="/tour" element={<Booking />} />
+    //   </Routes>
+    //   <Footer />
+    // </BrowserRouter>
+    <>
+      <Blog />
+    </>
   );
 }
 
