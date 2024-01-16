@@ -1,6 +1,7 @@
 .catering__hero-section {
   width: 100%;
   position: relative;
+  margin: 0;
 }
 
 .catering__hero-section > img {
@@ -16,4 +17,61 @@
   font-size: 50px;
   color: rgb(108, 106, 106);
   letter-spacing: 6px;
+}
+
+.catering-about-section {
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+  padding: 100px;
+}
+
+.catering-about__left {
+  width: 40%;
+  padding: 20px ;
+}
+
+.catering-about__left > img {
+  width: 100%;
+}
+
+.catering-about__right {
+  width: 35%;
+  padding: 20px;
+}
+
+.catering-about__Heading {
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.catering-about__subHeading {
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+.catering-about__content-1 {
+  text-align: justify;
+  margin: 0;
+  padding-top: 28px;
+  font-size: 20px;
+  font-weight: 350;
+}
+
+.catering-about__content-1 > span{
+    background-color: #ebebeb;
+}
+
+.catering-about__content-2{
+    text-align: justify;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 350;
+    color: #757575;
 }
