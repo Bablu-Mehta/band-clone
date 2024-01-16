@@ -125,3 +125,51 @@
   padding: 12px 0;
   color: #757575;
 }
+
+.catering-contact-section {
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.catering-contact-section > h1 {
+  font-size: 45px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 45px;
+}
+
+.catering-contact-section > p {
+  margin: 0;
+  padding: 10px 8px;
+}
+
+.catering-contact__address {
+  font-size: 20px;
+  font-weight: 500;
+  color: #607d8b;
+}
+
+.catering-contact__form {
+  width: 100%;
+}
+.catering-contact__form > form > input {
+  width: 100%;
+  padding: 20px 10px;
+  border: none;
+  border-bottom: 1px solid rgb(205, 203, 203);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.catering-contact__form > form > button {
+  border: none;
+  background-color: rgb(231, 228, 228);
+  padding: 12px 16px;
+  font-size: 18px;
+  margin: 14px 0;
+}
+
+.catering-contact__form > form > button:hover {
+  background-color: rgb(205, 203, 203);
+}

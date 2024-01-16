@@ -9,18 +9,16 @@ import Catering from "./components/cateringRoute/Catering.jsx";
 
 function App() {
   return (
-    // <BrowserRouter>
-    //   <Navbar />
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/band" element={<BandRoute />} />
-    //     <Route path="/tour" element={<Blog />} />
-    //   </Routes>
-    //   <Footer />
-    // </BrowserRouter>
-    <>
-      <Catering />
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/band" element={<BandRoute />} />
+        <Route path="/tour" element={<Blog />} />
+        <Route path="/catering" element={<Catering />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
