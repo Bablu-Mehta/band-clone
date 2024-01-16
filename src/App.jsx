@@ -10,18 +10,15 @@ import Blog from "./components/tourRoute/Blog.jsx";
 
 function App() {
   return (
-    // <BrowserRouter>
-    //   <Navbar />
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/band" element={<BandRoute />} />
-    //     <Route path="/tour" element={<Booking />} />
-    //   </Routes>
-    //   <Footer />
-    // </BrowserRouter>
-    <>
-      <Blog />
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/band" element={<BandRoute />} />
+        <Route path="/tour" element={<Blog />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
