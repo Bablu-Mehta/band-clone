@@ -2,6 +2,7 @@ import React from "react";
 import "./catering.css";
 import heroImage from "../../assets/cateringRoute/hamburger.jpg";
 import aboutImage from "../../assets/cateringRoute/about-img.jpg";
+import dishImage from "../../assets/cateringRoute/dishImage.jpg";
 
 const Catering = () => {
   return (
@@ -35,6 +36,50 @@ const Catering = () => {
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat.
           </p>
+        </div>
+      </div>
+
+      {/* ======================Menu section============ */}
+
+      <div className="menu-container">
+        <div className="menu__left">
+          <h1>Our Menu</h1>
+          <div className="menu__dish">
+            <p className="menu__dish-name">Bread Basket</p>
+            <p className="menu__dish-description">
+              Assortment of fresh baked fruit breads and muffins 5.50
+            </p>
+          </div>
+
+          <div className="menu__dish">
+            <p className="menu__dish-name">Honey Almond Granola with Fruits</p>
+            <p className="menu__dish-description">
+              Natural cereal of honey toasted oats, raisins, almonds and dates
+              7.00
+            </p>
+          </div>
+          <div className="menu__dish">
+            <p className="menu__dish-name">Belgian Waffle</p>
+            <p className="menu__dish-description">
+              Vanilla flavored batter with malted flour 7.50
+            </p>
+          </div>
+          <div className="menu__dish">
+            <p className="menu__dish-name">Scrambled eggs</p>
+            <p className="menu__dish-description">
+              Scrambled eggs, roasted red pepper and garlic, with green onions
+              7.50
+            </p>
+          </div>
+          <div className="menu__dish">
+            <p className="menu__dish-name">Blueberry Pancakes</p>
+            <p className="menu__dish-description">
+              With syrup, butter and lots of berries 8.50
+            </p>
+          </div>
+        </div>
+        <div className="menu__right">
+          <img src={dishImage} alt="image of dish" />
         </div>
       </div>
     </div>

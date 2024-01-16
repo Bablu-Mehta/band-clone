@@ -28,11 +28,12 @@
 
 .catering-about__left {
   width: 40%;
-  padding: 20px ;
+  padding: 20px;
 }
 
 .catering-about__left > img {
   width: 100%;
+  opacity: 0.7;
 }
 
 .catering-about__right {
@@ -63,15 +64,64 @@
   font-weight: 350;
 }
 
-.catering-about__content-1 > span{
-    background-color: #ebebeb;
+.catering-about__content-1 > span {
+  background-color: #ebebeb;
 }
 
-.catering-about__content-2{
-    text-align: justify;
-    margin: 0;
-    padding-top: 30px;
-    font-size: 20px;
-    font-weight: 350;
-    color: #757575;
+.catering-about__content-2 {
+  text-align: justify;
+  margin: 0;
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 350;
+  color: #757575;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+  padding: 100px;
+}
+
+.menu__left {
+  width: 40%;
+  padding: 20px;
+}
+
+.menu__left > h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+
+.menu__right {
+  width: 35%;
+  padding: 20px;
+}
+
+.menu__right > img {
+  width: 100%;
+  opacity: 0.7;
+}
+
+.menu__dish {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.menu__dish-name {
+  margin: 0;
+  font-weight: 400;
+  font-size: 26px;
+  letter-spacing: 4px;
+}
+
+.menu__dish-description {
+  margin: 0;
+  font-size: 15px;
+  padding: 12px 0;
+  color: #757575;
 }
