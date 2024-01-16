@@ -3,6 +3,8 @@ import SingleBlog from "./SingleBlog";
 import "./blog.css";
 import woodsImage from "../../assets/tourRoute/woods.jpg";
 import bioImage from "../../assets/tourRoute/avatar.jpg";
+import PopularPost from "./PopularPost";
+import postImage from "../../assets/tourRoute/workshop.jpg";
 
 const Blog = () => {
   return (
@@ -41,6 +43,46 @@ const Blog = () => {
                 neque quam blog. I want to share my world with you.
               </p>
             </div>
+          </div>
+
+          {/* =========PopularPost Section=========== */}
+
+          <div className="blog-popular-posts">
+            <div className="blog__popular-posts">Popular Posts</div>
+            <ul>
+              <li>
+                <PopularPost
+                className="blog__single-post"
+                  postImage={postImage}
+                  postHeading="Lorem"
+                  postSubHeading="Sed mattis nunc"
+                />
+              </li>
+
+              <li>
+                <PopularPost
+                  postImage={postImage}
+                  postHeading="Lorem"
+                  postSubHeading="Sed mattis nunc"
+                />
+              </li>
+
+              <li>
+                <PopularPost
+                  postImage={postImage}
+                  postHeading="Lorem"
+                  postSubHeading="Sed mattis nunc"
+                />
+              </li>
+
+              <li>
+                <PopularPost
+                  postImage={postImage}
+                  postHeading="Lorem"
+                  postSubHeading="Sed mattis nunc"
+                />
+              </li>
+            </ul>
           </div>
         </div>
       </div>
