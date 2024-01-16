@@ -1,6 +1,6 @@
 .blog-container {
-  /* max-width: 1400px; */
-  padding: 0 30px;
+  padding: 10px 90px;
+  background-color: #f1f1f1;
 }
 
 .blog-heading {
@@ -43,7 +43,7 @@
 
 .blog-bio {
   width: 100%;
-  box-shadow: 2px 2px 8px 2px rgb(203, 203, 203);
+  box-shadow: 2px 2px 8px 2px rgb(133, 131, 131);
 }
 
 .blog-bio > img {
@@ -75,14 +75,14 @@
 
 .blog-popular-posts {
   margin-top: 24px;
-  box-shadow: 2px 2px 8px 2px rgb(203, 203, 203);
+  box-shadow: 2px 2px 8px 2px rgb(133, 131, 131);
   box-sizing: border-box;
 }
 
 .blog__popular-posts {
   margin: 0;
   padding: 16px 28px;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 300;
   background-color: rgb(220, 215, 215);
 }
@@ -102,4 +102,36 @@ ul > li {
 
 ul > li:hover {
   background-color: rgb(197, 190, 190);
+}
+
+.tags-container {
+  width: 100%;
+  margin-top: 24px;
+  box-shadow: 2px 2px 8px 2px rgb(133, 131, 131);
+  box-sizing: border-box;
+}
+
+.tags-container > h3 {
+  margin: 0;
+  padding: 16px 28px;
+  font-size: 26px;
+  font-weight: 300;
+  background-color: rgb(220, 215, 215);
+}
+
+.tags {
+  padding: 12px;
+}
+
+.tags > span {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #e1e1e1;
+  margin-left: 6px;
+  margin-bottom: 16px;
+}
+
+.tags > .active {
+  color: #fff;
+  background: #000;
 }
