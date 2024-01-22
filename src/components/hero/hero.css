@@ -15,19 +15,22 @@
   position: absolute;
   text-align: center;
   color: #fff;
-  bottom: 0;
-  left: 35%;
+  bottom: 16px;
+  left: 50%;
   line-height: 25px;
+  transform: translate(-50%, -50%);
 }
 
 .hero-content > h3 {
   font-size: 1.8rem;
+  margin: 0;
+  line-height: 50px;
 }
 
 .hero-content > p {
   font-size: 1.4rem;
+  margin: 0;
 }
-
 
 /* display: flex;
 flex-direction: column;
@@ -40,4 +43,4 @@ border-radius: 20px;
 /* left: 50%;
 transform: translate(-50%, -50%);
 background: black;
-opacity: 0.5; */ 
+opacity: 0.5; */
