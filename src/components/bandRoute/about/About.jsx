@@ -22,6 +22,7 @@ const About = () => {
     register,
     handleSubmit,
     reset,
+    clearErrors,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(formValidation),
@@ -34,6 +35,7 @@ const About = () => {
   function handleCloseDialog() {
     setOpen(false);
     setFormSubmitted(false);
+    clearErrors();
   }
 
   function handleFormSubmit(data) {
