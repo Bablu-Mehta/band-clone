@@ -1,7 +1,10 @@
 .footer-container {
-  padding-top: 64px;
-  padding-bottom: 64px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 50px 0 40px;
 }
 
 .socials {
@@ -17,10 +20,10 @@
 .social:hover {
   color: rgb(181, 178, 178);
 }
-
-.footer-heading {
-  color: grey;
+.footer-heading > p {
   font-size: 18px;
+  color: grey;
+  margin: 0;
 }
 
 .footer-heading > p > a {
