@@ -1,12 +1,22 @@
 import React from "react";
 import "./about.css";
 import TeamMember from "./TeamMember";
-import johnDoe from "../../../assets/bandRoute/team2.jpg";
-import janeDoe from "../../../assets/bandRoute/team1.jpg";
-import mikeRoss from "../../../assets/bandRoute/team3.jpg";
-import danStar from "../../../assets/bandRoute/team4.jpg";
+import { memberData } from "../../../constants";
 
 const About = () => {
+  function handleClick() {
+    console.log("clicked");
+  }
+  const teamMemberListUi = memberData.map((member) => (
+    <TeamMember
+      key={member.id}
+      memberImage={member.memberImage}
+      memberName={member.memberName}
+      memberDesignation={member.memberDesignation}
+      memberDescription={member.memberDescription}
+      handleClick={handleClick}
+    />
+  ));
   return (
     <div className="band-about-container">
       <h1>About</h1>
@@ -21,32 +31,7 @@ const About = () => {
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
         laboris nisi ut aliquip ex ea commodo consequat.
       </p>
-      <div className="band-about-team">
-        <TeamMember
-          memberImage={johnDoe}
-          memberName="John Doe"
-          memberDesignation="CEO & Founder"
-          memberDescription="Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
-        />
-        <TeamMember
-          memberImage={janeDoe}
-          memberName="Jane Doe"
-          memberDesignation="Architect"
-          memberDescription="Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
-        />
-        <TeamMember
-          memberImage={mikeRoss}
-          memberName="Mike Ross"
-          memberDesignation="Architect"
-          memberDescription="Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
-        />
-        <TeamMember
-          memberImage={danStar}
-          memberName="Dan Star"
-          memberDesignation="Architect"
-          memberDescription="Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum."
-        />
-      </div>
+      <div className="band-about-team">{teamMemberListUi}</div>
     </div>
   );
 };
