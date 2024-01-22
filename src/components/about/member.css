@@ -1,5 +1,9 @@
 .member-card {
-  width: 33%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .member-card > img {
@@ -9,4 +13,5 @@
 .name {
   text-align: center;
   font-weight: 400;
+  margin: 0;
 }

@@ -1,18 +1,18 @@
 .about-container {
-  margin: 8rem auto;
-  max-width: 950px;
+  margin: 0;
+  padding: 50px;
 }
 
 .about-content > h1 {
   text-align: center;
   letter-spacing: 4px;
   font-size: 4rem;
-  line-height: 1rem;
   font-weight: 500;
+  margin: 0;
 }
 
 .about-content > h4 {
-  margin-top: 0;
+  margin: 0;
   text-align: center;
   font-size: 1rem;
   font-style: italic;
@@ -23,11 +23,13 @@
   line-height: 1.8rem;
   text-align: justify;
   font-weight: 500;
+  margin: 20px 0 0 0;
 }
 
 .member-section {
   display: flex;
-  gap: 8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6rem;
   align-items: center;
-  margin: 4rem 2rem;
 }
