@@ -1,38 +1,44 @@
 .form-container {
-  margin: 0;
-  padding: 10px 30px;
+  width: 100%;
+}
+
+.form-container > h1 {
+  margin: 24px 0 24px 12px;
+  font-weight: 500;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.form-container > p {
+  margin: 12px 0 12px 12px;
+  font-size: 19px;
+}
+
+form {
+  width: 100%;
+  padding:0 30px;
   box-sizing: border-box;
 }
 
-.form-container > input {
+form > input {
+  box-sizing: border-box;
   width: 100%;
   font-size: 18px;
   border: 1px solid rgb(208, 208, 208);
-  padding: 12px 10px;
+  padding: 12px 8px;
   margin-bottom: 10px;
   font-weight: 400;
 }
 
-.form-container > button {
+form > button {
   border: none;
   padding: 12px 14px;
   font-weight: 500;
   font-size: 16px;
   color: #fff;
   background-color: #000;
-  margin-top: 14px;
 }
 
-.form-container > button:hover {
+form > button:hover {
   background-color: rgb(204, 202, 202);
   color: black;
-}
-
-.form-container > h1 {
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.form-container > p {
-  font-size: 19px;
 }

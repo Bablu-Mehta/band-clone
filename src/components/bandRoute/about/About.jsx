@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import "./about.css";
 import TeamMember from "./TeamMember";
-import { memberData } from "../../../constants";
+import { bandRouteMemberData } from "../../../constants";
 import {
   Button,
   DialogActions,
@@ -45,7 +45,7 @@ const About = () => {
     reset();
   }
 
-  const teamMemberListUi = memberData.map((member) => (
+  const teamMemberListUi = bandRouteMemberData.map((member) => (
     <TeamMember
       key={member.id}
       memberImage={member.memberImage}

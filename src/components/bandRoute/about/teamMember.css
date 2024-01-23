@@ -1,13 +1,23 @@
 .band-about-member-card {
-  margin: 0;
-  width: 24%;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .band-about-member-card > img {
   width: 100%;
 }
 
-.band-about-member-card > h3 {
+.band-about-member-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3px;
+  align-items: flex-start;
+}
+
+.band-about-member-content > h3 {
   margin: 0;
   font-size: 24px;
   font-weight: 400;
@@ -25,7 +35,7 @@
   font-weight: 600;
 }
 
-.band-about-member-card > button {
+.band-about-member-content > button {
   width: 100%;
   border: none;
   background: rgb(237, 230, 230);
@@ -33,7 +43,7 @@
   padding: 10px;
 }
 
-.band-about-member-card > button:hover {
+.band-about-member-content > button:hover {
   background: rgb(197, 196, 196);
   cursor: pointer;
 }

@@ -8,7 +8,7 @@ import brickHouse from "../src/assets/bandRoute/house2.jpg";
 import renovated from "../src/assets/bandRoute/house3.jpg";
 import barnHouse from "../src/assets/bandRoute/house4.jpg";
 
-export const memberData = [
+export const bandRouteMemberData = [
   {
     id: "m1",
     memberName: "John Doe",
