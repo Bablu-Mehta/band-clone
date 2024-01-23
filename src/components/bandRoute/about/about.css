@@ -1,19 +1,15 @@
 .band-about-container {
-  /* width: 100%; */
-  margin: 0;
-  padding: 24px;
+  width: 100%;
 }
 
 .band-about-container > h1 {
-  margin: 0;
+  margin-bottom: 25px;
   font-size: 26px;
   font-weight: 400;
-  padding-bottom: 25px;
   border-bottom: 1px solid #f1f1f1;
 }
 
 .band-about-content {
-  margin: 0;
   padding: 25px 0;
   font-size: 18px;
   font-weight: 500;
