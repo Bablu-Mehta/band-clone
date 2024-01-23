@@ -25,9 +25,12 @@
 }
 
 .band-hero-heading > span {
-  margin: 0;
   background: #000;
   padding: 8px 14px;
   opacity: 0.8;
   font-weight: 600;
+}
+
+.band-hero-heading > p {
+  margin: 0;
 }
