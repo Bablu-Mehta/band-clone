@@ -1,7 +1,6 @@
 .catering__hero-section {
   width: 100%;
   position: relative;
-  margin: 0;
 }
 
 .catering__hero-section > img {
@@ -22,13 +21,13 @@
 .catering-about-section {
   display: flex;
   justify-content: center;
-  /* gap: 10px; */
-  padding: 100px;
+  gap: 20px;
+  margin-top: 80px;
+  /* padding: 100px; */
 }
 
 .catering-about__left {
-  width: 40%;
-  padding: 20px;
+  width: 600px;
 }
 
 .catering-about__left > img {
@@ -37,8 +36,10 @@
 }
 
 .catering-about__right {
-  width: 35%;
-  padding: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
 }
 
 .catering-about__Heading {
@@ -51,7 +52,6 @@
 .catering-about__subHeading {
   text-align: center;
   margin: 0;
-  padding-top: 40px;
   font-size: 22px;
   letter-spacing: 5px;
 }
@@ -59,7 +59,6 @@
 .catering-about__content-1 {
   text-align: justify;
   margin: 0;
-  padding-top: 28px;
   font-size: 20px;
   font-weight: 350;
 }
@@ -71,7 +70,6 @@
 .catering-about__content-2 {
   text-align: justify;
   margin: 0;
-  padding-top: 30px;
   font-size: 20px;
   font-weight: 350;
   color: #757575;
@@ -80,26 +78,27 @@
 .menu-container {
   display: flex;
   justify-content: center;
-  /* gap: 10px; */
-  padding: 100px;
+  gap: 20px;
+  margin-top: 80px;
+  align-items: center;
 }
 
 .menu__left {
-  width: 40%;
-  padding: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .menu__left > h1 {
   text-align: center;
-  margin: 0;
   font-size: 50px;
   font-weight: 400;
-  padding-bottom: 24px;
+  margin: 0;
 }
 
 .menu__right {
-  width: 35%;
-  padding: 20px;
+  width: 600px;
 }
 
 .menu__right > img {
@@ -108,8 +107,11 @@
 }
 
 .menu__dish {
-  margin: 0;
-  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 14px;
+  margin-top: 50px;
 }
 
 .menu__dish-name {
@@ -122,26 +124,24 @@
 .menu__dish-description {
   margin: 0;
   font-size: 15px;
-  padding: 12px 0;
   color: #757575;
 }
 
 .catering-contact-section {
-  width: 75%;
-  margin: 0 auto;
-  padding: 10px;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto 0 auto;
 }
 
 .catering-contact-section > h1 {
   font-size: 45px;
   font-weight: 400;
-  margin: 0;
-  padding-bottom: 45px;
+  margin: 0 0 30px 0;
 }
 
 .catering-contact-section > p {
-  margin: 0;
-  padding: 10px 8px;
+  margin: 10px 8px;
 }
 
 .catering-contact__address {
@@ -168,6 +168,7 @@
   padding: 12px 16px;
   font-size: 18px;
   margin: 14px 0;
+  color: black;
 }
 
 .catering-contact__form > form > button:hover {
