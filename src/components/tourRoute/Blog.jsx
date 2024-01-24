@@ -52,7 +52,7 @@ const Blog = () => {
             <ul>
               <li>
                 <PopularPost
-                className="blog__single-post"
+                  className="blog__single-post"
                   postImage={postImage}
                   postHeading="Lorem"
                   postSubHeading="Sed mattis nunc"
@@ -88,21 +88,21 @@ const Blog = () => {
           {/* ======================tags section=============== */}
           <div className="tags-container">
             <h3>TAGS</h3>
-            <p className="tags">
-                <span className="active">Travel</span>
-                <span>New York</span>
-                <span>Ikea</span>
-                <span>Norway</span>
-                <span>DIY</span>
-                <span>Ideas</span>
-                <span>Baby</span>
-                <span>Family</span>
-                <span>News</span>
-                <span>Clothing</span>
-                <span>Shopping</span>
-                <span>Sports</span>
-                <span>Games</span>
-            </p>
+            <div className="tags">
+              <p className="active">Travel</p>
+              <p>New York</p>
+              <p>Ikea</p>
+              <p>Norway</p>
+              <p>DIY</p>
+              <p>Ideas</p>
+              <p>Baby</p>
+              <p>Family</p>
+              <p>News</p>
+              <p>Clothing</p>
+              <p>Shopping</p>
+              <p>Sports</p>
+              <p>Games</p>
+            </div>
           </div>
         </div>
       </div>
