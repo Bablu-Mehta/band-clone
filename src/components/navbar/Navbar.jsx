@@ -19,6 +19,9 @@ const Navbar = () => {
         <li>
           <Link to="/catering">Catering Services</Link>
         </li>
+        <li>
+          <Link to="/stop-watch">Stop Watch</Link>
+        </li>
         {/* <li>
          <a href="#">More</a>
          <ul className="dropdown">
