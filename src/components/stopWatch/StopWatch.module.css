@@ -1,0 +1,22 @@
+.container {
+  background-color: rgb(164, 224, 248);
+  color: rgb(5, 72, 72);
+  padding: 20px 0;
+}
+
+.displayTime {
+  padding: 50px;
+}
+
+.displayTime > p {
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
