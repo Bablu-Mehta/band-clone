@@ -55,7 +55,7 @@ const StopWatch = () => {
     return () => {
       clearInterval(interval.current);
     };
-  }, [second, startWatch]);
+  }, [second, minute, startWatch]);
   return (
     <div className={classes.container}>
       <div className={classes.displayTime}>
