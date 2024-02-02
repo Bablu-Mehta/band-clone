@@ -7,6 +7,7 @@ import BandRoute from "./components/bandRoute/BandRoute.jsx";
 import Blog from "./components/tourRoute/Blog.jsx";
 import Catering from "./components/cateringRoute/Catering.jsx";
 import StopWatch from "./components/stopWatch/StopWatch.jsx";
+import Counter from "./components/stopWatch/Counter.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/tour" element={<Blog />} />
         <Route path="/catering" element={<Catering />} />
         <Route path="/stop-watch" element={<StopWatch />} />
+        <Route path="/counter" element={<Counter />} />
       </Routes>
       <Footer />
     </BrowserRouter>

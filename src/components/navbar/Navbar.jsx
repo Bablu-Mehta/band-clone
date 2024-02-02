@@ -22,6 +22,9 @@ const Navbar = () => {
         <li>
           <Link to="/stop-watch">Stop Watch</Link>
         </li>
+        <li>
+          <Link to="/counter">Counter</Link>
+        </li>
         {/* <li>
          <a href="#">More</a>
          <ul className="dropdown">
